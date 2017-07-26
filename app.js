@@ -1,5 +1,5 @@
  var typed3 = new Typed('#typed3', {
-    strings: ['I am a Data Programmer', 'I am a Web Developer', 'I am a Co-Founder/Entrepreneur', 'I am a Machine Learning Enthusiast','I am a Hiker'],
+    strings: ['I am a data programmer', 'I am a web developer', 'I am a entrepreneur', 'I am a machine learning enthusiast','and I love Hiking and kayaking'],
     typeSpeed: 40,
     backSpeed: 20,
     smartBackspace: true, // this is a default
@@ -27,3 +27,29 @@
     }
   });
 });
+
+    $('.target-skills').click(function(){
+      $('#head').addClass('fadeOutUp');
+      $('.signs').addClass('fadeOutRight');
+      $('.about-me').addClass('fadeOutLeft');
+      $('.skills').addClass('fadeInRight');
+      $('.skills').css("display", "initial");
+    })
+
+     $('.target-exp').click(function(){
+      $('#head').addClass('fadeOutUp');
+      $('.signs').addClass('fadeOutRight');
+      $('.about-me').addClass('fadeOutLeft');
+    })
+
+      $('.target-projects').click(function(){
+      $('#head').addClass('fadeOutUp');
+      $('.signs').addClass('fadeOutRight');
+      $('.about-me').addClass('fadeOutLeft');
+    })
+
+       $('.target-courses').click(function(){
+      $('#head').addClass('fadeOutUp');
+      $('.signs').addClass('fadeOutRight');
+      $('.about-me').addClass('fadeOutLeft');
+    })
