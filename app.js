@@ -1,3 +1,5 @@
+ 
+
  var typed3 = new Typed('#typed3', {
     strings: ['I am a data programmer', 'I am a web developer', 'I am a entrepreneur', 'I am a machine learning enthusiast','and I love Hiking and kayaking'],
     typeSpeed: 40,
@@ -29,12 +31,13 @@
 });
 
     $('.target-skills').click(function(){
-      $('#head').addClass('fadeOutUp');
-      $('.signs').addClass('fadeOutRight');
       $('.about-me').addClass('fadeOutLeft');
-      $('.skills').addClass('fadeInRight');
-      $('.skills').css("display", "initial");
-    })
+      setTimeout(function(){
+        $('.skills').addClass('initial')
+        $('.skills').css("display", "initial");
+        }, 300);
+      $('.about-me').css("display", "none");
+      })
 
      $('.target-exp').click(function(){
       $('#head').addClass('fadeOutUp');

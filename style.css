@@ -23,14 +23,14 @@ padding: 0;
   display: flex;
   justify-content: center;
 }
-.icons > img {
+.icons > a > img {
  height: 8vh;
  width: 8vh;
 }
 
-.icons > img:hover{
+.icons > a > img:hover{
   cursor: pointer;
-  box-shadow: 2px 2px 2px black;
+  box-shadow: 3px 3px 3px black;
 }
 
 #head {
@@ -72,8 +72,10 @@ font-family: 'PT Mono', monospace;
   margin: 30px auto;
 }
 
-
-
+.target-projects:hover {
+  cursor: pointer;
+  pointer-events: auto;
+}
   .caption-style-1{
     list-style-type: none;
     margin: 0px;
@@ -96,7 +98,8 @@ font-family: 'PT Mono', monospace;
     opacity: 1;
 
   }
-
+.initial {
+visibility: 100%;}
 
   .caption-style-1 img{
     width: 400px;
@@ -153,8 +156,24 @@ font-family: 'PT Mono', monospace;
     margin-top: 3%; 
   }
 
-  .skills {
-display: none;
+  .skills { 
+     display: none;
   }
+
+
+/* Skills and references*/
+
+.back > img{
+  height: 6vw;
+  width: 6vw;
+margin-left: 12%;
+}
+
+.skill-list {
+  font-size: 2vw;
+  color: rgba(250,250,250,.7);
+  margin-right: 5%;
+}
+
 
 
