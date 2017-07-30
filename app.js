@@ -16,7 +16,7 @@
     fadeOut: true,
     loop: false
   });
- 
+ $("#demo01").animatedModal();
     $(document).ready(function() {
   $('.expandable-box').click(function(e) {
     if($(this).hasClass('open')) {
@@ -30,29 +30,4 @@
   });
 });
 
-    $('.target-skills').click(function(){
-      $('.about-me').addClass('fadeOutLeft');
-      setTimeout(function(){
-        $('.skills').addClass('initial')
-        $('.skills').css("display", "initial");
-        }, 300);
-      $('.about-me').css("display", "none");
-      })
-
-     $('.target-exp').click(function(){
-      $('#head').addClass('fadeOutUp');
-      $('.signs').addClass('fadeOutRight');
-      $('.about-me').addClass('fadeOutLeft');
-    })
-
-      $('.target-projects').click(function(){
-      $('#head').addClass('fadeOutUp');
-      $('.signs').addClass('fadeOutRight');
-      $('.about-me').addClass('fadeOutLeft');
-    })
-
-       $('.target-courses').click(function(){
-      $('#head').addClass('fadeOutUp');
-      $('.signs').addClass('fadeOutRight');
-      $('.about-me').addClass('fadeOutLeft');
-    })
+ 
