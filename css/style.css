@@ -45,6 +45,7 @@ font-family: 'PT Mono', monospace;
       display: flex;
       justify-content: center;
       width: 100%;
+      background-image: url('img/seattle.png');
       background-size: cover;
       background-position: 0%65%;
       background-repeat: no-repeat;
